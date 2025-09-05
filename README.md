@@ -16,7 +16,7 @@ project_root/
 │   ├── Documentation.pdf
 │   ├── Technical Report.pdf
 ├── src/                              # All implementation files (flat structure)
-│   ├── bpsk_receiver.py
+│   ├── ber_calculator.py
 │   ├── bpsk_receiver.py
 │   ├── dataset_processor.py
 │   ├── main.py
@@ -148,6 +148,7 @@ The modular design allows easy extension:
 - Matplotlib >= 3.5.0 (for visualization)
 
 See `requirements.txt` for complete dependency list.
+
 
 
 
