@@ -6,25 +6,26 @@ Implementation of a BPSK receiver for the Project ICARUS communications reliabil
 
 ```
 project_root/
-├── cubesat_dataset/         # Dataset (with decoded.numpy)
+├── cubesat_dataset/                   # Dataset (with decoded.numpy)
 │   ├── phase1_timing/
 │   ├── phase2_snr/
 │   ├── phase3_coding/
 │   └── phase4_doppler/
-├── docs/                    # Documents
+├── docs/                             # Documents
 │   ├── Challenge.pdf
 │   ├── Documentation.pdf
 │   ├── Technical Report.pdf
-│   ├── bpsk_receiver.py             # Core BPSK receiver with full RS & Viterbi
-│   ├── ultra_flexible_processor.py  # Ultra-flexible dataset processor
-│   ├── comprehensive_evaluator.py   # Complete BER/FER evaluator
-│   ├── constellation_plotter.py     # Constellation diagram generator
-│   ├── doppler_plotter.py           # Doppler compensation plotter
-│   ├── complete_evaluation.py       # MAIN evaluation script
-│   ├── main_flexible.py             # Dataset processing script
-│   ├── ber_calculator.py            # BER/FER utilities
-├── results/                 # Generated plots and analysis
-└── requirements.txt         # Python dependencies
+├── src/                              # All implementation files (flat structure)
+│   ├── bpsk_receiver.py              # Core BPSK receiver with full RS & Viterbi
+│   ├── ultra_flexible_processor.py   # Ultra-flexible dataset processor
+│   ├── comprehensive_evaluator.py    # Complete BER/FER evaluator
+│   ├── constellation_plotter.py      # Constellation diagram generator
+│   ├── doppler_plotter.py            # Doppler compensation plotter
+│   ├── complete_evaluation.py        # MAIN evaluation script
+│   ├── main_flexible.py              # Dataset processing script
+│   ├── ber_calculator.py             # BER/FER utilities
+├── results/                          # Generated plots and analysis
+└── requirements.txt                  # Python dependencies
 ```
 
 ## Installation
@@ -149,6 +150,7 @@ The modular design allows easy extension:
 - Matplotlib >= 3.5.0 (for visualization)
 
 See `requirements.txt` for complete dependency list.
+
 
 
 
