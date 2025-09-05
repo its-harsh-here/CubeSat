@@ -14,6 +14,7 @@ project_root/
 ├── docs/                             # Documents
 │   ├── Challenge.pdf
 │   ├── Technical Report.pdf
+├── results/                          # Generated plots and analysis
 ├── src/                              # All implementation files (flat structure)
 │   ├── ber_calculator.py
 │   ├── bpsk_receiver.py
@@ -21,7 +22,6 @@ project_root/
 │   ├── main.py
 │   ├── ultra_flexible_processor.py
 │   ├── visualization.py              
-├── results/                          # Generated plots and analysis
 └── requirements.txt                  # Python dependencies
 ```
 
@@ -147,6 +147,7 @@ The modular design allows easy extension:
 - Matplotlib >= 3.5.0 (for visualization)
 
 See `requirements.txt` for complete dependency list.
+
 
 
 
