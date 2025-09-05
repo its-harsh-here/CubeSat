@@ -13,7 +13,6 @@ project_root/
 │   └── phase4_doppler/
 ├── docs/                             # Documents
 │   ├── Challenge.pdf
-│   ├── Documentation.pdf
 │   ├── Technical Report.pdf
 ├── src/                              # All implementation files (flat structure)
 │   ├── ber_calculator.py
@@ -148,6 +147,7 @@ The modular design allows easy extension:
 - Matplotlib >= 3.5.0 (for visualization)
 
 See `requirements.txt` for complete dependency list.
+
 
 
 
