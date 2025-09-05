@@ -67,6 +67,8 @@ python visualization.py
 
 ## Implementation Details
 
+<img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/d9f98cd0-2585-4614-b5ac-1950f44cac35" />
+
 ### Phase 1: Symbol Timing Recovery
 - **Algorithm**: Gardner Timing Error Detector
 - **Components**: Root-raised cosine matched filter, interpolation control
@@ -144,6 +146,7 @@ The modular design allows easy extension:
 - Matplotlib >= 3.5.0 (for visualization)
 
 See `requirements.txt` for complete dependency list.
+
 
 
 
