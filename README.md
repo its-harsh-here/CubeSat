@@ -6,17 +6,21 @@ Implementation of a BPSK receiver for the Project ICARUS communications reliabil
 
 ```
 project_root/
-├── src/                     # All Python source code
+├── cubesat_dataset/        # Dataset (with decoded.numpy)
+│   ├── phase1_timing/
+│   ├── phase2_snr/
+│   ├── phase3_coding/
+│   └── phase4_doppler/
+├── docs/        # Documents
+│   ├── Challenge.pdf
+│   ├── Documentation.pdf
+│   ├── Technical Report.pdf
+├── src/                     # All source code
 │   ├── bpsk_receiver.py    # Main BPSK receiver implementation
 │   ├── dataset_processor.py # Dataset traversal and processing
 │   ├── ber_calculator.py   # BER/FER calculation and evaluation
 │   ├── visualization.py    # Constellation and performance plots
 │   └── main.py            # Main processing script
-├── cubesat_dataset/        # Dataset (preserve this structure)
-│   ├── phase1_timing/
-│   ├── phase2_snr/
-│   ├── phase3_coding/
-│   └── phase4_doppler/
 ├── results/                # Generated plots and analysis
 └── requirements.txt        # Python dependencies
 ```
@@ -138,3 +142,4 @@ The modular design allows easy extension:
 - Matplotlib >= 3.5.0 (for visualization)
 
 See `requirements.txt` for complete dependency list.
+
